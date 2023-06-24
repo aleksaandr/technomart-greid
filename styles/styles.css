@@ -622,6 +622,7 @@ body {
   padding: 0;
   list-style-type: none;
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: auto;
   transform: translateY(19px);
 }
@@ -680,9 +681,11 @@ body {
   background-color: #63a63e;
   border-radius: 4px;
   padding: 12px 10px;
+  display: flex;
   width: 170px;
-  margin-bottom: 9px;
+  text-align: center;
   z-index: -1;
+  transform: translateY(-9px);
 }
 
 .order-link:hover {
