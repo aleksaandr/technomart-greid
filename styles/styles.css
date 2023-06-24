@@ -763,6 +763,7 @@ body {
   grid-row: 2 / 4;
   width: 770px;
   padding: 50px 440px 40px 50px;
+  background-repeat: no-repeat;
 }
 
 .slider-block:not(.slider-block-active) {
